@@ -1,7 +1,6 @@
 import * as simpleIcons from "simple-icons";
 import { motion } from "framer-motion";
 import { memo } from "react";
-import Marquee from "react-fast-marquee";
 
 interface Project {
   title: string;
