@@ -1,8 +1,5 @@
-"use client"
-
 import "./globals.css";
 import { Inter, Caveat } from "next/font/google";
-import Head from "next/head";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -15,6 +12,22 @@ const caveat = Caveat({
   variable: "--font-caveat", // Define a CSS variable for selective usage
 });
 
+export const metadata = {
+  title: 'RedAakash | Expert DevOps Engineer | Freelancer & OnEggy Technologies Founder',
+  description: 'Providing expert DevOps solutions, freelance services, and cloud consulting. RedAakash is a trusted DevOps Engineer and founder of OnEggy Technologies.',
+  keywords: 'DevOps services, freelance DevOps engineer, RedAakash, cloud consulting, OnEggy Technologies, CI/CD pipelines, infrastructure automation, DevOps solutions',
+  author: 'RedAakash',
+  url: 'https://www.redaakash.com', // Your website URL
+  image: '/og-image.png', // Replace with the path to your Open Graph image
+  type: 'website', // Open Graph type
+  themeColor: '#0f172a', // Primary theme color
+  twitterUsername: '@redaakash', // Your Twitter handle
+  siteName: 'RedAakash Portfolio', // The name of your site for Open Graph
+  language: 'en-US', // Language for SEO
+  robots: 'index, follow', // Robots meta tag for SEO
+  canonical: 'https://www.redaakash.com', // Canonical URL to avoid duplicates
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -22,20 +35,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" >
-      <Head>
-        <title>RedAakash | DevOps Engineer Freelancer</title>
-        <meta name="description" content="Expert DevOps services by RedAakash, founder of OnEggy Technologies." />
-        <meta name="keywords" content="DevOps services, DevOps freelancer, RedAakash, OnEggy Technologies" />
-        <meta name="author" content="RedAakash" />
-        <meta property="og:title" content="RedAakash | DevOps Engineer Freelancer" />
-        <meta property="og:description" content="Expert DevOps services by RedAakash, founder of OnEggy Technologies." />
-        <meta property="og:url" content="https://www.redaakash.com/" />
-        <meta property="og:image" content="/og-image.png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="RedAakash | DevOps Engineer Freelancer" />
-        <meta name="twitter:description" content="Expert DevOps services by RedAakash, founder of OnEggy Technologies." />
-        <meta name="twitter:image" content="/og-image.png" />
-      </Head>
       <body
         className={`${inter.variable} ${caveat.variable} antialiased`}
       >
