@@ -75,6 +75,7 @@ The name **RedAakash** reflects:
 
 ## 📫 **Get in Touch**
 
+- **Website**: [https://www.redaakash.xyz](https://www.redaakash.xyz)
 - **LinkedIn**: [linkedin.com/in/redaakash](https://linkedin.com/in/redaakash)  
 - **GitHub**: [github.com/RedAakash](https://github.com/RedAakash)  
 - **Email**: [aakash@oneggy.com](mailto:aakash@oneggy.com)  
