@@ -75,9 +75,9 @@ The name **RedAakash** reflects:
 
 ## 📫 **Get in Touch**
 
-- **LinkedIn**: [linkedin.com/in/aakash-sharma](https://linkedin.com/in/aakash-sharma)  
-- **GitHub**: [github.com/AakashSharma](https://github.com/AakashSharma)  
-- **Email**: [aakash.sharma@devopspro.com](mailto:aakash.sharma@devopspro.com)  
+- **LinkedIn**: [linkedin.com/in/redaakash](https://linkedin.com/in/redaakash)  
+- **GitHub**: [github.com/RedAakash](https://github.com/RedAakash)  
+- **Email**: [aakash@oneggy.com](mailto:aakash@oneggy.com)  
 
 ---
 
