@@ -37,7 +37,11 @@ export default function RootLayout({
     <html lang="en" >
       <body
         className={`${inter.variable} ${caveat.variable} antialiased`}
-      >
+      style={{
+        userSelect: "none", /* Standard */
+        WebkitUserSelect: "none", /* Safari */
+        msUserSelect: "none", /* IE/Edge */
+      }}>
         {children}
       </body>
     </html>
